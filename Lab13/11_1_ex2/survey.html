@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>View Happy Harry's Hardware Catalog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="setcookie.php" method="post">
+            <label>Please enter your name: </label>
+            <input type="text" size="15" maxlength="20" name="custname">
+            <br>
+            <label>What would you like to look at today?</label>
+            <input type="radio" name="prefers" value="power tools" checked > Power Tools?
+            <input type="radio" name="prefers" value="hand tools"> Hand Tools?
+            <input type="radio" name="prefers" value="air fresheners"> Air Fresheners?
+            <br>
+            <input type="submit" value="Click To Submit">
+            <input type = "reset" value="Reset">
+        </form>
+    </body>
+</html>
