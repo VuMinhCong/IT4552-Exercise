@@ -1,1 +1,0 @@
-REMEMBER to import and execute the .sql file in phpmyadmin first before you run the program.
